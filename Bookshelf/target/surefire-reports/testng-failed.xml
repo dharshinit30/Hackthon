@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Bookshelf.testdata.TestValidData">
+        <methods>
+          <include name="getResult"/>
+          <include name="testwebpage"/>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Bookshelf.testdata.TestValidData -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test thread-count="5" verbose="0" name="firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Bookshelf.testdata.TestValidData">
+        <methods>
+          <include name="getResult"/>
+          <include name="testwebpage"/>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Bookshelf.testdata.TestValidData -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,9 @@
+com\Bookshelf\driversetup\DriverSetup.class
+com\Bookshelf\utils\Excelutlis_Collections_List.class
+com\Bookshelf\utils\ExcelUtils_Bookshelf_name_and_price.class
+com\Bookshelf\testdata\TestValidData.class
+com\Bookshelf\pageobjects\Display_Collections.class
+com\Bookshelf\libraryfunctions\Screenshots.class
+com\Bookshelf\reports\ExtentReport.class
+com\Bookshelf\pageobjects\Bookshelf.class
+com\Bookshelf\pageobjects\GiftCard.class

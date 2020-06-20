@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 53, Failures: 2, Errors: 0, Skipped: 51, Time elapsed: 114.609 s <<< FAILURE! - in TestSuite
+setup(com.Bookshelf.testdata.TestValidData)  Time elapsed: 22.442 s  <<< FAILURE!
+io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org
+	at com.Bookshelf.testdata.TestValidData.setup(TestValidData.java:36)
+Caused by: java.net.UnknownHostException: npm.taobao.org
+	at com.Bookshelf.testdata.TestValidData.setup(TestValidData.java:36)
+
+setup(com.Bookshelf.testdata.TestValidData)  Time elapsed: 110.538 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DHARSHINI', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+remote stacktrace: 
+Command duration or timeout: 79.34 seconds
+	at com.Bookshelf.testdata.TestValidData.setup(TestValidData.java:36)
+Caused by: org.openqa.selenium.TimeoutException: 
+connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DHARSHINI', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+remote stacktrace: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DHARSHINI', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+
